@@ -1,0 +1,71 @@
+{
+  "type": "scatter",
+  "data": {
+    "datasets": [
+      {
+        "label": "North America",
+        "data": [
+          {"x": 15.2, "y": 1200},
+          {"x": 10.8, "y": 950},
+          {"x": 16.5, "y": 1250}
+        ],
+        "backgroundColor": "rgba(54, 162, 235, 0.5)",
+        "borderColor": "rgba(54, 162, 235, 1)",
+        "pointRadius": 5,
+        "pointHoverRadius": 7,
+        "pointStyle": "circle"
+      },
+      {
+        "label": "Europe",
+        "data": [
+          {"x": 12.5, "y": 1100},
+          {"x": 13.2, "y": 1050}
+        ],
+        "backgroundColor": "rgba(255, 99, 132, 0.5)",
+        "borderColor": "rgba(255, 99, 132, 1)",
+        "pointRadius": 5,
+        "pointHoverRadius": 7,
+        "pointStyle": "circle"
+      },
+      {
+        "label": "Asia",
+        "data": [
+          {"x": 28.3, "y": 1800},
+          {"x": 18.9, "y": 1600}
+        ],
+        "backgroundColor": "rgba(75, 192, 192, 0.5)",
+        "borderColor": "rgba(75, 192, 192, 1)",
+        "pointRadius": 5,
+        "pointHoverRadius": 7,
+        "pointStyle": "circle"
+      },
+      {
+        "label": "Africa",
+        "data": [
+          {"x": 24.6, "y": 700}
+        ],
+        "backgroundColor": "rgba(255, 205, 86, 0.5)",
+        "borderColor": "rgba(255, 205, 86, 1)",
+        "pointRadius": 5,
+        "pointHoverRadius": 7,
+        "pointStyle": "circle"
+      }
+    ]
+  },
+  "options": {
+    "scales": {
+      "x": {
+        "title": {"display": true, "text": "Average Temperature (°C)"},
+        "beginAtZero": false
+      },
+      "y": {
+        "title": {"display": true, "text": "Transportation Demand (Units)"},
+        "beginAtZero": true
+      }
+    },
+    "plugins": {
+      "title": {"display": true, "text": "Temperature vs Transportation Demand by Region"},
+      "legend": {"position": "top"}
+    }
+  }
+}
