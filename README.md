@@ -25,7 +25,8 @@ record for a specific city.
 Purpose: Designed for analyzing global temperature trends, climate change, or weather-related patterns,
 useful for time series analysis, forecasting, or regional comparisons.
 
-Data Quality: May include missing values or outliers (e.g.,-99 for invalid temperatures, as noted in Web
+Data Quality: May incl[Exercise 6.1 .pdf](https://github.com/user-attachments/files/22541534/Exercise.6.1.pdf)
+ude missing values or outliers (e.g.,-99 for invalid temperatures, as noted in Web
 ID: 2), requiring cleaning before analysis.
 
 Data can be accessed here:
